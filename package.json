@@ -1,0 +1,41 @@
+{
+  "name": "styled-media-responsive",
+  "version": "1.0.0",
+  "description": "Everything you need to make media queries on your styled component react app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test",
+    "prepublish": "babel src --presets babel-preset-es2015 --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arovillard/styled-media-responsive.git"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "grid",
+    "responsive",
+    "media-query",
+    "breakpoints"
+  ],
+  "author": "Alejandro Rovillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arovillard/styled-media-responsive/issues"
+  },
+  "homepage": "https://github.com/arovillard/styled-media-responsive#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "styled-components": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

@@ -1,0 +1,1 @@
+import mediaQuery from './mediaQuery'
