@@ -1,4 +1,4 @@
-# styled-grid-responsive
+# styled-media-responsive
 Everything needed to make your `styled-components` 💅 React Application responsive using media queries.
 
 # Installation:
