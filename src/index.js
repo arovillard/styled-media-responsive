@@ -1,2 +1,5 @@
-export { default as mediaQuery } from './mediaQuery'
-export { defaultBreakpoints } from './defaultBreakpoints'
+import defaultBreakpoints from './defaultBreakpoints'
+import mediaQuery from './mediaQuery'
+
+export { defaultBreakpoints }
+export default mediaQuery

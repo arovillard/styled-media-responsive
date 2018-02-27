@@ -4,7 +4,7 @@ import defaultBreakpoints from './defaultBreakpoints'
 
 
 // iterate through the sizes and create a media template
-const mediaQuery = (userBreakpoints) => {
+export default mediaQuery = (userBreakpoints) => {
   const availableBreakpoints = userBreakpoints || defaultBreakpoints
   const acumulatedMedia = Object.keys(availableBreakpoints).reduce((accumulator, obj) => {
     // use em in breakpoints to work properly cross-browser and support users
@@ -36,5 +36,3 @@ const mediaQuery = (userBreakpoints) => {
   }, {})
   return acumulatedMedia
 }
-
-export default mediaQuery

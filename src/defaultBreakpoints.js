@@ -3,7 +3,7 @@
 // max, then the media query rule will be 'max-width'. If both are defined,
 // then the media query rule will be 'max-width and min-width'.
 
-const defaultBreakpoints = {
+export default defaultBreakpoints = {
   phone: {
     max: 768
   },
@@ -19,5 +19,3 @@ const defaultBreakpoints = {
     min: 1400
   }
 }
-
-export default defaultBreakpoints
