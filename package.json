@@ -1,6 +1,6 @@
 {
   "name": "styled-media-responsive",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Everything you need to make media queries on your styled component react app",
   "main": "lib/index.js",
   "scripts": {
