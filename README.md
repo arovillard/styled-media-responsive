@@ -39,14 +39,14 @@ the best practice would be to declare the media queries in descending order (unl
 
 ````javascript
   // If using the default breakpoints:
-  import { mediaQuery } from 'styled-grid-responsive'
+  import mediaQuery from 'styled-grid-responsive'
 
   export const media = mediaQuery()
 
 
   // If using your own breakpoints:
 
-  import { mediaQuery } from 'styled-grid-responsive'
+  import mediaQuery from 'styled-grid-responsive'
 
   const breakpoints = {
     smallPhone: {
