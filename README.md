@@ -5,7 +5,7 @@ Everything needed to make your `styled-components` 💅 React Application respon
 `npm install styled-media-responsive`
 
 # Breakpoints:
-you can use the default breakpoints or set your own through the theme provider.
+you can use the default breakpoints or set your own by passing them to the function. See example below
 
 Default breakpoints:
 
@@ -28,7 +28,7 @@ Default breakpoints:
    }
  ````
 
-# Importing the breakpoints into your app (if needed):
+# Importing the default breakpoints into your app (if needed):
 ````javascript
  import { defaultBreakpoints } from 'styled-media-responsive'
 ````
